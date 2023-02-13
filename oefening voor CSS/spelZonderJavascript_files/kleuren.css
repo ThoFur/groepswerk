@@ -1,4 +1,5 @@
 /*kleur van zwart naar een andere kleur veranderen*/
+/*https://codepen.io/sosuke/pen/Pjoqqp*/
 .vijand.rood{
     filter: invert(12%) sepia(100%) saturate(6408%) hue-rotate(9deg) brightness(105%) contrast(120%);
 }
