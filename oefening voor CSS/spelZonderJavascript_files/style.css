@@ -1,0 +1,134 @@
+/*gras #b3ffb3*/
+
+.style1, .gras {
+    background-image: url("../img/gras.png");
+    background-size:100%;
+    border-radius: 0%;
+}
+
+/*speler*/
+
+.style2, .speler {
+    /*background-color: blue; */
+    background-color: rgb(221, 211, 28);
+    background-image: url("../img/speler.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+    /*background-image: url('./img/speler1_small.png');*/
+
+
+    
+}
+/*.right{
+    transform: none;
+    
+}*/
+
+.left{
+    
+    transform: scaleX(-1);
+    
+}
+
+.up{
+    transform: rotate(-90deg);
+    
+}
+
+.down{
+    transform: rotate(90deg);
+    
+}
+
+/*speler*/
+
+.style2, .speler_dood {
+    /*background-color:deeppink; */
+    background-color: darkgrey
+    /*background-image: url('./img/speler1_dood_small.png');*/
+}
+
+/*muur*/
+
+.style4, .muur {
+    background-color: #b32d00;
+    border-radius: 5%;
+    background-image: url("../img/wall.png");
+    background-size:600%;
+    background-position: center;
+    /*background-image: url('./img/wall_small.jpg');*/
+}
+
+/*schat*/
+
+.style4, .schat {
+    /*background-color: yellow;*/
+    background-color: #ffbf00;
+    border-radius: 25%;
+    /*background-image: url('./img/schat_small.png');*/
+}
+
+/*vijand*/
+
+.style5, .vijand {
+    /*background-color: red; */
+    background-color: red;
+    background-image: url(../img/spookZwart.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+   
+    /*background-image: url('./img/vijand1_small.png');*/
+}
+
+/*ieder veld #b3ffb3*/
+table {
+    border-collapse: collapse;
+    background-color: #b3ffb3;
+    background-image: url("../img/gras.png");
+    background-size:10%;
+}
+
+td {
+    border-radius: 100% ;
+}
+td.up, td.left{
+    border-radius: 100%;
+}
+
+.gras, .speler, .speler_dood, .muur, .schat, .vijand {
+    height: 60px;
+    width: 60px;
+    
+}
+
+.label {
+    width: 150px;
+}
+
+.timer {
+    font-size: 60px;
+}
+
+.gegevens {
+    font-family: Ubuntu;
+    font-size: 12px;
+}
+
+#wrapper {
+    width: 100%;
+    overflow: hidden;
+    /* will contain if #output is longer than #buttons */
+}
+
+#output {
+    float: left;
+    /* add this */
+}
+
+#buttons {
+    overflow: hidden;
+    /* if you don't want #buttons to wrap below #output */
+}

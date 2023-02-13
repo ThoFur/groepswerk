@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<!-- saved from url=(0080)file:///C:/_DATA/Cursussen/C%20Javascript/3.%20schattenjacht/oplossing/spel.html -->
+<html class="no-js" lang="BE"><!--<![endif]-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>test class bitmap</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="./spelZonderJavascript_files/style.css">
+
+
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="output">
+            <table>
+                <tbody>
+                    <tr>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="schat"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                    </tr>
+                    <tr>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                    </tr>
+                    <tr>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="muur"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                    </tr>
+                    <tr>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="muur"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="muur"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                    </tr>
+                    <tr>
+                        <td class="gras"></td>
+                        <td class="muur"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="schat"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="speler"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                    </tr>
+                    <tr>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="muur"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="vijand" class="up"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                    </tr>
+                    <tr>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="muur"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                    </tr>
+                    <tr>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="muur"></td>
+                        <td class="gras"></td>
+                    </tr>
+                    <tr>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="muur"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                    </tr>
+                    <tr>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="schat"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                    </tr>
+                    <tr>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                    </tr>
+                    <tr>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="muur"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                    </tr>
+                    <tr>
+                        <td class="muur"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                    </tr>
+                    <tr>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                    </tr>
+                    <tr>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                        <td class="gras"></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
