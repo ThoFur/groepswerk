@@ -1,0 +1,12 @@
+/*kleur van zwart naar een andere kleur veranderen*/
+.vijand.rood{
+    filter: invert(12%) sepia(100%) saturate(6408%) hue-rotate(9deg) brightness(105%) contrast(120%);
+}
+
+.vijand.blauw{
+    filter: invert(45%) sepia(45%) saturate(4495%) hue-rotate(166deg) brightness(101%) contrast(101%);
+}
+
+.vijand.paars{
+    filter: invert(13%) sepia(69%) saturate(6735%) hue-rotate(277deg) brightness(90%) contrast(105%);
+}
