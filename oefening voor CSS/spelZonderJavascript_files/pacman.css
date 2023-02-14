@@ -1,0 +1,14 @@
+@import url(./template.css);
+
+/*variable*/
+:root{
+    --grasfoto: url("../img/standaard/gras.png");
+    --spelerfoto: url("../img/standaard/speler.png");
+    --vijandfoto: url("../img/standaard/vijand.png");
+    --schatfoto: url("../img/standaard/schat.png");
+    --muurfoto: url("../img/standaard/muur.png");
+
+    --player-hurt1: url("../img/standaard/speler-hurt1.png");
+    --player-hurt2: url("../img/standaard/speler-hurt2.png");
+    --player-hurt3: url("../img/standaard/speler-hurt3.png");
+}
