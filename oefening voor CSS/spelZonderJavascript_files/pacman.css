@@ -17,3 +17,16 @@
     background-size: 50%;
     background-repeat: no-repeat;
 }
+
+@keyframes disappear{
+    0%, 100%{
+        opacity: 100%;
+    }
+    50%{
+        opacity: 5%;
+    }
+}
+.vijand{
+    animation: disappear 30s infinite, floaty 1s infinite;
+    
+}

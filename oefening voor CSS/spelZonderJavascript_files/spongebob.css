@@ -19,3 +19,17 @@
     animation: floaty 0.5s infinite;
 }
 
+@keyframes moveX{
+   
+    0%, 100%{
+        transform: rotate(10deg);
+        transform-origin: bottom center;
+    }
+    50%{
+        transform: rotate(-10deg);
+        transform-origin: bottom center;
+    }
+}
+.muur{
+    animation: moveX 5s infinite;
+}
