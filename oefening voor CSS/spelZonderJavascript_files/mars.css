@@ -6,9 +6,13 @@
     --spelerfoto: url("../img/standaard/speler.png");
     --vijandfoto: url("../img/standaard/vijand.png");
     --schatfoto: url("../img/mars/schat.gif");
-    --muurfoto: url("../img/standaard/muur.png");
+    --muurfoto: url("../img/mars/marsRock.png");
 
     --player-hurt1: url("../img/standaard/speler-hurt1.png");
     --player-hurt2: url("../img/standaard/speler-hurt2.png");
     --player-hurt3: url("../img/standaard/speler-hurt3.png");
+}
+
+.muur{
+    background-repeat: no-repeat;
 }

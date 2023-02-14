@@ -12,3 +12,8 @@
     --player-hurt2: url("../img/standaard/speler-hurt2.png");
     --player-hurt3: url("../img/standaard/speler-hurt3.png");
 }
+
+.schat{
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
