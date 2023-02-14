@@ -1,10 +1,14 @@
 /*variable*/
 :root{
-    --grasfoto: url("../img/mars/gras.png");
+    --grasfoto: url("../img/standaard/gras.png");
     --spelerfoto: url("../img/standaard/speler.png");
     --vijandfoto: url("../img/standaard/vijand.png");
-    --schatfoto: url("../img/mars/schat.gif");
+    --schatfoto: url("../img/standaard/schat.png");
     --muurfoto: url("../img/standaard/muur.png");
+
+    --player-hurt1: url("../img/standaard/speler-hurt1.png");
+    --player-hurt2: url("../img/standaard/speler-hurt2.png");
+    --player-hurt3: url("../img/standaard/speler-hurt3.png");
 }
 
 /*gras*/
@@ -26,6 +30,20 @@
     transform: rotate(180deg);
 }
 
+.speler.hurt1{
+    background-image: var(--player-hurt1)   ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.speler.hurt2{
+    background-image: var(--player-hurt2);
+}
+
+.speler.hurt3{
+    background-image: var(--player-hurt3);
+}
+
 .right{
     transform: none;
 }
@@ -38,6 +56,8 @@
 .down{
     transform: rotate(90deg);
 }
+
+
 
 /*muur*/
 
