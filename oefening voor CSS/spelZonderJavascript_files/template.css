@@ -92,7 +92,7 @@
     background-size: 100%;
     background-position: center;
     animation: floaty 1s infinite;
-    filter: invert(13%) sepia(69%) saturate(6735%) hue-rotate(277deg) brightness(90%) contrast(105%);
+    
 }
 
 /*kleur van zwart naar een andere kleur veranderen*/
